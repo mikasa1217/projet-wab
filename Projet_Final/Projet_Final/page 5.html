@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Agency - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+  <!-- Load plotly.js into the DOM -->
+	<script src='https://cdn.plot.ly/plotly-2.18.2.min.js'></script>
+    <!-- Load plotly.js into the DOM -->
+	<script src='https://cdn.plot.ly/plotly-2.18.2.min.js'></script>
+    </head>
+    <body id="page-top">
+     
+<nav>
+  <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+    <div class="container">
+        <a class="navbar-brand" href="#page-top">eAnalytics</a>
+    <li><a href="index.html">Accueil</a></li>
+
+    <li class="deroulant"><a href="#">Ventes &ensp;</a>
+        <ul class="sous">
+            <li><a href="page3.html">Analyse mensuel</a></li>
+            <li><a href="analyse_ville.html">Analyse par villes</a></li>
+            <li><a href="page4.html">Maximisation de la rentabilité</a></li>
+            </ul>
+            </li>
+
+    <li class="deroulant"><a href="#">Produits &ensp;</a>
+      <ul class="sous">
+        <li><a href="page 5.html">Analyse par produit</a></li>
+      </ul>
+    </li>
+    
+    <li class="deroulant"><a href="#">Probabilités &ensp;</a>
+      <ul class="sous">
+        <li><a href="page 6.html">Probabilité d'achat d'un produit</a></li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+</nav>
+
+
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                
+                <div class="masthead-heading text-uppercase">Analyse de produit</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">En savoir plus</a>
+            </div>
+        </header>
+        <br>
+        <br>
+        <div class="text-center">
+        <h2 class="portfolio-caption-heading">Répartition du chiffre d'affaire en fonction des produits vendus</h2>
+                    
+     </div>
+
+        <table>
+            <tr>
+                <td> <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div></td>
+                <td>  <table border = 1>
+    
+            <tr>
+                <td> &ensp; Produits </td>
+                <td>&ensp; Quantité commandée &ensp;</td>
+            </tr>
+            <tr>
+                <td> &ensp;20in Monitor</td>
+                <td>&ensp; 4129</td>
+            </tr>
+            <tr>
+                <td> &ensp;27in 4K Gaming Monitor</td>
+                <td>&ensp; 6244</td>
+            </tr>
+            <tr>
+                <td> &ensp;27in FHD Monitor</td>
+                <td>&ensp; 7550</td>
+            </tr>
+            <tr>
+                <td> &ensp;34in Ultrawide Monitor</td>
+                <td>&ensp; 6199</td>
+            </tr>
+            <tr>
+                <td> &ensp;AA Batteries (4-pack)</td>
+                <td>&ensp; 27635</td>
+            </tr>
+            <tr>
+                <td> &ensp;AAA Batteries (4-pack) &ensp;</td>
+                <td>&ensp; 31017</td>
+            </tr>
+            <tr>
+                <td> &ensp;Apple Airpods Headphones</td>
+                <td>&ensp; 15661</td>
+            </tr>
+            <tr>
+                <td> &ensp;Bose SoundSport Headphones</td>
+                <td>&ensp; 13457</td>
+            </tr>
+            <tr>
+                <td> &ensp;Flatscreen TV</td>
+                <td>&ensp; 4819</td>
+            </tr>
+            <tr>
+                <td> &ensp;Google Phone</td>
+                <td>&ensp; 5532</td>
+            </tr>
+            <tr>
+                <td> &ensp;iPhone</td>
+                <td>&ensp; 6849</td>
+            </tr>
+            <tr>
+                <td> &ensp;LG Dryer</td>
+                <td>&ensp; 646</td>
+            </tr>
+            <tr>
+                <td> &ensp;LG Washing Machine</td>
+                <td>&ensp; 666</td>
+            </tr>
+            <tr>
+                <td> &ensp;Lightning Charging Cable</td>
+                <td>&ensp; 23217</td>
+            </tr>
+            <tr>
+                <td> &ensp;Macbook Pro Laptop</td>
+                <td>&ensp; 4728</td>
+            </tr>
+            <tr>
+                <td> &ensp;ThinkPad Laptop</td>
+                <td>&ensp; 4130</td>
+            </tr>
+            <tr>
+                <td> &ensp;USB-C Charging Cable</td>
+                <td>&ensp; 23975</td>
+            </tr>
+            <tr>
+                <td> &ensp;Vareebadd Phone</td>
+                <td>&ensp; 2068</td>
+            </tr>
+            <tr>
+                <td> &ensp;Wired Headphones</td>
+                <td>&ensp; 20557</td>
+            </tr>
+            <tr>
+                <td> &ensp;Total général</td>
+                <td>&ensp; 209079</td>
+            </tr>
+        </table></td>
+            </tr>
+        </table>
+        
+       <div class="text-center">
+         <p> On constate que le meilleur produit vendu est le pack de 4 batteries AAA avec une quantité maximale de 31017 produits.<br>
+        Cependant on remarque que le meilleur chiffre d'affaire est généré à partir du produit Macbook pro, qui constitue 22% du chiffre d'affaires total. </p>
+       </div>
+       
+      
+<br>
+<br>
+       
+        
+        <!-- Produits-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Produits</h2>
+                    <h3 class="section-subheading text-muted">Ensemble des produits vendus</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="monitor" class="img-fluid" src="produits/20in Monitor.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">20in Monitor</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="gaming" class="img-fluid" src="produits/27in 4K Gaming Monitor.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">27in 4K Gaming Monitor</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="fdh" class="img-fluid" src="produits/27in FHD Monitor.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">27in FHD Monitor</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="ultrawide" class="img-fluid" src="produits/34in Ultrawide Monitor.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">34in Ultrawide Monitor</div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="aabatteries" class="img-fluid" src="produits/AA Batteries (4-pack).png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">AA Batteries (4-pack)</div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="aaabatteries" class="img-fluid" src="produits/AAA Batteries (4-pack).png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">AAA Batteries (4-pack)</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 7-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="airpods" class="img-fluid" src="produits/Apple Airpods Headphones.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Apple Airpods Headphones</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 8-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal8">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="soundsport" class="img-fluid" src="produits/Bose SoundSport Headphones.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Bose SoundSport Headphones</div>
+                             
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 9-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal9">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="flatscreen" class="img-fluid" src="produits/Flatscreen TV.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Flatscreen TV</div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 10-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal10">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="google" class="img-fluid" src="produits/Google Phone.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Google Phone</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 11-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal11">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="iphone" class="img-fluid" src="produits/iPhone.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">iPhone</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 12-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal12">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="dryer" class="img-fluid" src="produits/LG Dryer.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">LG Dryer</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 13-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal13">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="washing" class="img-fluid" src="produits/LG Washing Machine.avif" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">LG Washing Machine</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 14-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal14">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="charging" class="img-fluid" src="produits/Lightning Charging Cable.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Lightning Charging Cable</div>
+                          
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 15-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal15">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="macbook" class="img-fluid" src="produits/Macbook Pro Laptop.avif" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Macbook Pro Laptop</div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 16-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal16">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="thinkpad" class="img-fluid" src="produits/ThinkPad Laptop.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">ThinkPad Laptop</div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 17-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal17">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="cable" class="img-fluid" src="produits/USB-C Charging Cable.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">USB-C Charging Cable</div>
+                           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 18-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal18">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="vareebadd" class="img-fluid" src="produits/Vareebadd Phone.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Vareebadd Phone</div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 19-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal19">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img id="wired" class="img-fluid" src="produits/Wired Headphones.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Wired Headphones</div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <!-- Clients-->
+        <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contacter nous</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Nom *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Téléphone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Envoyer</button></div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">20in Monitor</h2>
+                                    
+                                    <img class="img-fluid d-block mx-auto" src="produits/20in Monitor.png" alt="..." />
+                                    <p>Une clarté visuelle exceptionnelle pour les utilisateurs aux besoins graphiques importants, exigeant des fonctionnalités et performances de pointe. Des performances supérieures – des résolutions jusqu'à 1600 x 1200, un contraste élevé de 800:1 et des angles de visibilité à 178 degrés.</p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Ecrans
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            109.99 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">27in 4K Gaming Monitor</h2>
+                                    
+                                    <img class="img-fluid d-block mx-auto" src="produits/27in 4K Gaming Monitor.png" alt="..." />
+                                    <p>Les points forts :<br>
+
+                                        <li>3840*2160 - 28 pouces (70 cm)</li>
+                                        <li>Interfaces : HDMI 2.1</li>
+                                        <li>Temps de réponse : 3 ms</li>
+                                        <li>Type de panneau : IPS</li>
+                                        <li>Luminosité : 300</li>
+                                    
+                                        <li>Rapport de contraste : 3500</li>
+                                        <li>Dimensions (LxPxH) : 637.6 * 206.8 * 560.2mm</li> </p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Ecrans
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            389.99 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">27in FHD Monitor</h2>
+                                    <img  class="img-fluid d-block mx-auto" src="produits/27in FHD Monitor.png" alt="..." />
+                                    <p>Cet ecran pc 27 pouces avec technologie IPS et conception de lunette ultra-mince à trois côtés vous offre des visuels brillants et une qualité inoubliable, En outre, le grand angle de vision de 178 ° de cet écran pc 27 pouce vous permet de profiter d’images claires, nettes et délicates sous n’importe quel angle. </p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Ecrans
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            149.99 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">34in Ultrawide Monitor</h2>
+                                    
+                                    <img class="img-fluid d-block mx-auto" src="produits/34in Ultrawide Monitor.png" alt="..." />
+                                    <p>La flexibilité du support Ergo offre un réglage ergonomique de l'extension, de la rétraction, du pivotement, de la hauteur et de l'inclinaison, ainsi qu'une position parfaite de l'écran pour une expérience utilisateur plus confortable. </p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Ecrans
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            379.99 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">AA Batteries (4-pack)</h2>
+                                    
+                                    <img class="img-fluid d-block mx-auto" src="produits/AA Batteries (4-pack).png" alt="..." />
+                                    <p>Le Duracell Les piles rechargeables AA 2500 mAh sont les plus durables parmi nos batteries les plus durables par charge (pour les piles AA, par charge dans le même appareil).</p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Piles
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            3.84 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">AAA Batteries (4-pack)</h2>
+                                    
+                                    <img class="img-fluid d-block mx-auto" src="produits/AAA Batteries (4-pack).png" alt="..." />
+                                    <p>Les piles rechargeables Duracell AAA 750mAh restent chargées jusqu'à 12 mois lorsqu'elles ne sont pas utilisées </p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Piles
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            2.99 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio item 7 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Apple Airpods Headphones</h2>
+                                    <img class="img-fluid d-block mx-auto" src="produits/Apple Airpods Headphones.png" alt="..." />
+                                    <p> Transducteur dynamique conçu par Apple offrant un son haute-fidélité. 
+                                        Réduction active du bruit pour bloquer les bruits ambiants et vous immerger pleinement dans votre musique.</p>
+                                    <ul class="list-inline">
+                                       
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Ecouteurs
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            150.99 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Portfolio item 8 modal popup-->
+         <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Bose SoundSport Headphones</h2>
+                                    <img class="img-fluid d-block mx-auto" src="produits/Bose SoundSport Headphones.png" alt="..." />
+                                    <p> L'égalisation active Bose fournit un son équilibré à n'importe quel volume. Temps de charge: 2 heures. 
+                                        Commodité de la technologie sans fil, avec couplages Bluetooth et CCP faciles. 
+                                        Les embouts StayHear+ maintiennent les écouteurs confortablement en place pendant vos entraînements. </p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Ecouteurs
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            99.99 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Portfolio item 9 modal popup-->
+         <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Flatscreen TV</h2>
+                                    <img class="img-fluid d-block mx-auto" src="produits/Flatscreen TV.png" alt="..." />
+                                    <p>Lecteur multimédia USB : Le téléviseur numérique CHiQ est doté d'une interface USB 2.0 permettant de lire du contenu multimédia. Vous pouvez profiter du plaisir des vidéos, de la musique et des images en connectant simplement une clé USB au téléviseur. </p>
+                                    <ul class="list-inline">
+                                       
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Télévisions
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            300.00 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 10 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Google Phone</h2>
+                                    <img class="img-fluid d-block mx-auto" src="produits/Google Phone.png" alt="..." />
+                                    <p> Avec Google Tensor G2, le Pixel 7 Pro est plus rapide, efficace et sécurisé. Il offre une qualité photo et vidéo jamais vue sur un Pixel.
+                                        La batterie adaptative peut offrir plus de 24 heures d'autonomie. Activez l'ultra économiseur de batterie, et elle pourra durer jusqu'à 72 heures. </p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Téléphones
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            600.00 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 11 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">iPhone</h2>
+                                    <img class="img-fluid d-block mx-auto" src="produits/iPhone.webp" alt="..." />
+                                    <p> Écran Super Retina XDR 6,1 pouces.
+                                        Autonomie d’une journée entière et jusqu’à 20 heures de lecture vidéo.
+                                        Design conçu pour durer avec Ceramic Shield et résistance à l’eau.
+                                        Puce A15 Bionic avec GPU 5 cœurs, pour des performances fulgurantes. Connectivité 5G ultra-rapide. </p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Téléphones
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            700.00 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 12 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">LG Dryer</h2>
+                                    <img class="img-fluid d-block mx-auto" src="produits/LG Dryer.webp" alt="..." />
+                                    <p>Caractéristiques : sèche linge Smart à chargement frontal – Dimensions (L x P x H) 60 x 69 x 85 cm – Capacité 9 kg – Classe d'efficacité énergétique A+++ – 10 % – hublot réversible – Installation libre. </p>
+                                    <ul class="list-inline">
+                                     
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Electroménager
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            600.00€
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 13 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">LG Washing Machine</h2>
+                                    <img class="img-fluid d-block mx-auto" src="produits/LG Washing Machine.avif" alt="..." />
+                                    <p>Elimine 99,9% des acariens présents sur les textiles:
+                                        Lavez vos vêtements en toute confiance en sachant que 99,9% des acariens allergènes sont nettoyés par le cycle anti-allergie LG*.<br> Élimine les taches tenaces: 
+                                        Un lavage à haute température pour éliminer les taches tenaces comme la transpiration, le café ou la nourriture.</p>
+                                    <ul class="list-inline">
+                                       
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Electroménager
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            600.00 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 14 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Lightning Charging Cable</h2>
+                                    <img class="img-fluid d-block mx-auto" src="produits/Lightning Charging Cable.png" alt="..." />
+                                    <p>Certifié par Officiel , ce câble lightning est entièrement compatible avec tous les appareils IOS disposant d'un port Lightning à 8 broches. Avec ce câble lightning, vous ne verrez jamais s'afficher de message d'avertissement à l'écran. </p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Cables
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            14.95 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 15 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Macbook Pro Laptop</h2>
+                                    <img class="img-fluid d-block mx-auto" src="produits/Macbook Pro Laptop.avif" alt="..." />
+                                    <p>BOOSTÉ PAR LA PUCE M2 – Le MacBook Pro 13 pouces est super puissant et super portable.Vous allez pouvoir en faire plus grâce à un CPU 8 cœurs nouvelle génération, un GPU 10 cœurs et jusqu’à 24 Go de mémoire unifiée. </p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            PC
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            1700.00 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 16 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">ThinkPad Laptop</h2>
+                                    <img class="img-fluid d-block mx-auto" src="produits/ThinkPad Laptop.webp" alt="..." />
+                                    <p> Ordinateur portable de haute qualité pour bureau, privé, école, maison, bureau. 
+                                        Processeur haut de gamme Intel Core i5 6300U jusqu'à 2 x 3,00 GHz - fiable et puissant. </p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            PC
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            999.99 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 17 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">USB-C Charging Cable</h2>
+                                    <img class="img-fluid d-block mx-auto" src="produits/USB-C Charging Cable.png" alt="..." />
+                                    <p>Avec la technologie PD, ce câble USB C vers USB C offre la charge rapide jusqu'à 60W 20V/3A (max), capable de charger PC, téléphone et tablette équipés d'un port USB-C à une vitesse optimale. Et ce câble fournit une vitesse de transfert jusqu'à 480 Mbps. </p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Cables
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            11.95 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 18 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Vareebadd Phone</h2>
+                                    <img class="img-fluid d-block mx-auto" src="produits/Vareebadd Phone.png" alt="..." />
+                                    <p>Ecran immersif : le moto g32 a un grand écran de 6,5" d'une résolution FHD+ pour une immersion totale dans vos contenus préférés.</p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Téléphones
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            400.00 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 19 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Wired Headphones</h2>
+                                    <img class="img-fluid d-block mx-auto" src="produits/Wired Headphones.webp" alt="..." />
+                                    <p>Haute qualité sonore : le casque supra-aural Tune 500 offre l'excellent son JBL Pure Bass que vous pouvez entendre dans les salles de concert, les stades et les studios d'enregistrement du monde entier. </p>
+                                    <ul class="list-inline">
+                                        
+                                        <li>
+                                            <strong>Catégorie:</strong>
+                                            Ecouteurs
+                                        </li>
+                                        <li>
+                                            <strong>Prix:</strong>
+                                            11.99 €
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/page5.js"></script>
+        <script src="js/page6.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
