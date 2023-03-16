@@ -21,12 +21,5 @@ var trace1 = {
     }
   }; 
   
-  Plotly.newPlot('myDiv3',donnee, page);
 
-  function changeImage() {
-    var imageSelector = document.getElementById("imageSelector");
-    var selectedValue = imageSelector.value;
-    var displayedImage = document.getElementById("displayedImage");
-    displayedImage.src = selectedValue;
-  }
   
